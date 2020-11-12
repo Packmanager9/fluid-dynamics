@@ -1159,7 +1159,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         }
     }
 
-    let fluid = new Fluid(.2 , 0.001, 0.0005);
+    let fluid = new Fluid(1 , 0.001, 0.0005);
     // //console.log(fluid)
     let iter = 16
     let time = 0
