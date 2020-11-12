@@ -1,5 +1,14 @@
 
 window.addEventListener('DOMContentLoaded', (event) => {
+    
+    let canvas
+    let canvas_context
+    let keysPressed = {}
+    let FLEX_engine
+    let TIP_engine = {}
+    let XS_engine
+    let YS_engine
+    
     function setUp(canvas_pass, style = "#000000") {
         canvas = canvas_pass
         canvas_context = canvas.getContext('2d');
